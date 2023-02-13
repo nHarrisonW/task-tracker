@@ -1,0 +1,40 @@
+
+.main-bg {
+    background-color: #416173; 
+    height: 940px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.counters {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    color: white;
+}
+button , input {
+
+    background-color: #243D3F; color: white;
+    border-color: transparent;
+    margin-bottom: 10px !important;
+    margin-left: 5px !important;
+}
+
+.card-body, .card, .modal-content {
+    background-color: #8AAEB6 ;
+    border-radius: 0px !important;
+}
+#add-inp {
+    height: 30px;
+    width: 60%;
+}
+.modal-footer {
+    font-size: 12px;
+}
+::placeholder {
+    color: #bcd4c7;
+}
+
+
+.highlight .card {
+    background-color: lightblue;
+  }
+  
